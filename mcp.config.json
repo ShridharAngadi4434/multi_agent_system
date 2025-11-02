@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "tavily-remote-mcp": {
-      "command": "npx -y mcp-remote https://mcp.tavily.com/mcp/?tavilyApiKey=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",
+      "command": "npx -y mcp-remote https://mcp.tavily.com/mcp/?tavilyApiKey=<Your_api_key",
       "env": {}
     }
   }
