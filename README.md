@@ -22,6 +22,7 @@ Summary Agent → generates structured, human-readable summaries
 ✅ Environment-based Config for models and API keys.
 
 🏗️ Project Structure
+```
 multi_agent_research/
 │
 ├── agents/
@@ -41,6 +42,7 @@ multi_agent_research/
 ├── main.py                   # Main orchestrator script
 ├── requirements.txt          # Dependencies
 └── README.md                 
+```
 
 ⚙️ Setup Instructions
 1️⃣ Clone and create environment
@@ -53,57 +55,8 @@ mar_env\Scripts\activate       # Windows
 # source mar_env/bin/activate  # macOS/Linux
 
 2️⃣ Install dependencies
+
 pip install -r requirements.txt
-
-Your requirements.txt should include:
-
-aiofiles==25.1.0
-annotated-types==0.7.0
-anyio==4.11.0
-attrs==25.4.0
-autogen-agentchat==0.7.5
-autogen-core==0.7.5
-autogen-ext==0.7.5
-certifi==2025.10.5
-charset-normalizer==3.4.4
-click==8.3.0
-colorama==0.4.6
-distro==1.9.0
-h11==0.16.0
-httpcore==1.0.9
-httpx==0.28.1
-httpx-sse==0.4.3
-idna==3.11
-importlib_metadata==8.7.0
-jiter==0.11.1
-jsonref==1.1.0
-jsonschema==4.25.1
-jsonschema-specifications==2025.9.1
-mcp==1.19.0
-openai==2.6.1
-opentelemetry-api==1.38.0
-pillow==12.0.0
-protobuf==5.29.5
-pydantic==2.12.3
-pydantic-settings==2.11.0
-pydantic_core==2.41.4
-python-dotenv==1.2.1
-python-multipart==0.0.20
-pywin32==311
-referencing==0.37.0
-regex==2025.10.23
-requests==2.32.5
-rpds-py==0.28.0
-sniffio==1.3.1
-sse-starlette==3.0.2
-starlette==0.49.1
-tiktoken==0.12.0
-tqdm==4.67.1
-typing-inspection==0.4.2
-typing_extensions==4.15.0
-urllib3==2.5.0
-uvicorn==0.38.0
-zipp==3.23.0
 
 3️⃣ Set environment variables
 
@@ -112,8 +65,7 @@ Create a .env file in your project root:
 OPENAI_API_KEY=your_openai_key
 MCP_URL="https://mcp.tavily.com/mcp/?tavilyApiKey=<your-api-key>"
 TAVILY_API_KEY=your_tavily_api_key
-MODEL_NAME=gpt-4o-mini
-
+MODEL_NAME=your_model_name
 
 Then load them automatically (or use your terminal set command).
 
